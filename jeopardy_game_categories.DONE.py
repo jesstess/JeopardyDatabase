@@ -1,6 +1,6 @@
-from pysqlite2 import dbapi2 as sqlite
+import sqlite3
 
-connection = sqlite.connect('jeopardy.db')
+connection = sqlite3.connect('jeopardy.db')
 cursor = connection.cursor()
 
 cursor.execute("SELECT game FROM category ORDER BY RANDOM() LIMIT 1")
