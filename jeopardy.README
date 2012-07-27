@@ -3,7 +3,7 @@ Goals for this module
 
 * Get experience with SQL and querying a relational database.
 
-* Get experience using pysqlite2 to query a sqlite database from
+* Get experience using sqlite3 to query a sqlite database from
   within a Python script.
 
 
@@ -12,10 +12,6 @@ Dependencies and installation
 
 Precompiled SQLite binaries for all platforms can be found at:
 http://www.sqlite.org/download.html
-
-The pysqlite2 SQLite Python bindings have Windows executables and
-source tarballs at:
-http://code.google.com/p/pysqlite/
 
 A SQLite database dump of the Jeopardy database (jeopardy.dump) and
 tab-delimited dumps of the category and clue tables are at:
